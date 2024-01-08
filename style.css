@@ -127,7 +127,9 @@ input, textarea, select {
 }
 
 /* Skill Category Styles */
-
+.skill-category {
+  border-top: 2px solid #333;
+}
 
 /* Apply padding to the whole table for spacing */
 table {
