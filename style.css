@@ -79,7 +79,7 @@ input, textarea, select {
 .header-container {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center; /* Center name in header */
   padding: 10px;
   margin: 0 50px;
 }
@@ -88,10 +88,10 @@ input, textarea, select {
 .profile-picture {
   border: 2px solid #007bff;
   border-radius: 50%;
-  align-self: flex-start;
   margin-bottom: 10px;
   width: 120px;
   height: 120px;
+  align-self: flex-start; /* Move profile picture to the top left */
 }
 
 /* Center name in header */
