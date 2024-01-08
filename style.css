@@ -82,10 +82,14 @@ section {
 
 /* Adjust form elements */
 form {
-  /* Add margin and padding to form */
-  margin: 10px;
-  padding: 10px;
+  display: flex;
+  flex-direction: column; /* Stack form elements vertically */
+  align-items: center; /* Center form elements horizontally */
+  padding: 20px; /* Add padding for spacing */
 }
+
+
+
 
 /* Remove outlines from form elements */
 input, textarea, select {
@@ -95,11 +99,13 @@ input, textarea, select {
 /* Using Comments */
 /* Additional Comments for Clarity and Context */
 
-
+/* Header Container Styles with Flexbox */
 .header-container {
   display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start (left) */
+  padding: 10px; /* Add padding for spacing */
+  margin: 0 50px 0 50px;
 }
 
 /* Add border and border-radius to the profile picture */
@@ -108,6 +114,8 @@ input, textarea, select {
   border-radius: 50%; /* Make it rounded */
   align-self: flex-start; /* Move to the top left */
   margin-bottom: 10px; /* Add some space below the profile picture */
+  width:120px;
+  height: 120px;
 }
 
 /* Center name in header */
@@ -119,6 +127,15 @@ input, textarea, select {
 .contact-info {
   align-self: flex-end;
 }
+
+
+
+
+
+
+
+
+
 
 /* Skills Container Styles */
 .skills-container {
